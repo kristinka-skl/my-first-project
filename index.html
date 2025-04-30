@@ -1,16 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" 
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" >
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
+
   <body>
-    <h1>This is an example project</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit id quam
-      beatae quae cumque iusto esse aspernatur quis non voluptates voluptatum
-      voluptatem magni aut explicabo blanditiis autem, reiciendis ad ratione.
-    </p>
+
+    <header>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo">
+            <img src="./Images/Triangle.svg" alt="logo">
+          </a>
+          <ul class="header-nav">
+            <li class="header-nav-item"><a href="">First</a></li>
+            <li class="header-nav-item"><a href="">Second</a></li>
+            <li class="header-nav-item"><a href="">Third</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list">
+            <li class="header-address-item"><a class="header-address-link" href="mailto:test@test.com">test@test.com</a></li>
+            <li class="header-address-item"><a class="header-address-link" href="tel:0011111111">0011111111</a></li>
+          </ul>
+        </address>
+      </div>
+
+    </header>
+    
+<section class="section main-section">
+  <div class="container">
+    <h1 class="main-section-title">Idiocracy proof</h1>
+    <button class="main-btn" type="button">Call to action</button>
+  </div>
+</section>
+
+<section class="section our-heroes">
+<div class="container">
+  <h2 class="our-heroes-title">Meet our heroes</h2>
+  <ul class="heroes-list">
+    <li class="heroes-item">
+      <div class="hero-card">
+        <img src="https://picsum.photos/200" alt="alona">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, dignissimos!</p>
+      </div>
+    </li>
+    <li class="heroes-item">
+      <div class="hero-card">
+        <img src="https://picsum.photos/200" alt="anton">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, tempore!</p>
+      </div>
+    </li>
+    <li class="heroes-item">
+      <div class="hero-card">
+        <img src="https://picsum.photos/200" alt="janna">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aliquid.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</section>
+
+<!-- <div class="thumb">
+  <img src="https://unsplash.it/960/480" alt="A random image" />
+</div> -->
+
+<!-- <label for="" class="first-label">
+  <span class="first-span">
+    <div class="svg"></div>
+  </span>
+  Test idiocracy proof
+  <input type="text" class="first-input">
+</label> -->
+
   </body>
 </html>
